@@ -5,7 +5,7 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour {
 
 	public void LoadGame() {
-		Application.LoadLevel ("Game");
+		Application.LoadLevel ("Level01");
 	}
 
 	public void ExitGame() {
