@@ -7,10 +7,12 @@ public class Helmet : MonoBehaviour {
 	public bool helmetOff = false;
 
 	private Health health;
+    private SoundWaves[] soundWaves;
 
 	// Use this for initialization
 	void Start () {
 		health = GetComponent<Health> ();
+        soundWaves = GameObject.FindObjectsOfType<SoundWaves>();
 	}
 	
 	// Update is called once per frame
@@ -23,5 +25,30 @@ public class Helmet : MonoBehaviour {
 			helmetOff = false;
 			health.RecoverHealth ();
 		}
+
+        ControlWaves();
 	}
+
+    void ControlWaves()
+    {
+        foreach (SoundWaves waves in soundWaves)
+        {
+            waves.GetComponent<Animator>().SetBool("HelmetOff", helmetOff);
+        }
+
+        /*if (helmetOff)
+        {
+            foreach (SoundWaves waveParent in soundWaves)
+            {
+                waveParent.GetComponent<Animator>().enabled = true;
+            }
+        }
+        else
+        {
+            foreach (SoundWaves waveParent in soundWaves)
+            {
+                waveParent.GetComponent<Animator>().enabled = false;
+            }
+        }*/
+    }
 }
