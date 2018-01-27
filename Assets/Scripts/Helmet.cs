@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Helmet : MonoBehaviour {
 
-	private bool helmetOff = false;
+	public bool helmetOff = false;
+
 	private Health health;
 
 	// Use this for initialization
