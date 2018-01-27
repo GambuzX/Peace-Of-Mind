@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Climbable
+  - Sound_Wave
+  - Zipline
   layers:
   - Default
   - TransparentFX
