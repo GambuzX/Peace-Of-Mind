@@ -285,13 +285,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Peace-Of-Mind.Plugins.csproj">
-      <Project>{C6B263C4-A497-AAA4-CCC4-246B6061581B}</Project>
-      <Name>Peace-Of-Mind.Plugins</Name>
-    </ProjectReference>
     <ProjectReference Include="Peace-Of-Mind.csproj">
       <Project>{414678A3-237E-B955-84DD-88AB7419AC85}</Project>
       <Name>Peace-Of-Mind</Name>
+    </ProjectReference>
+    <ProjectReference Include="Peace-Of-Mind.Plugins.csproj">
+      <Project>{C6B263C4-A497-AAA4-CCC4-246B6061581B}</Project>
+      <Name>Peace-Of-Mind.Plugins</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
