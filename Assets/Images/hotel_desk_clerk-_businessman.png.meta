@@ -1,0 +1,567 @@
+fileFormatVersion: 2
+guid: f268a725cbc69ed4d95be4f47c0ed1d4
+timeCreated: 1517071786
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: hotel_desk_clerk-_businessman_0
+    21300002: hotel_desk_clerk-_businessman_1
+    21300004: hotel_desk_clerk-_businessman_2
+    21300006: hotel_desk_clerk-_businessman_3
+    21300008: hotel_desk_clerk-_businessman_4
+    21300010: hotel_desk_clerk-_businessman_5
+    21300012: hotel_desk_clerk-_businessman_6
+    21300014: hotel_desk_clerk-_businessman_7
+    21300016: hotel_desk_clerk-_businessman_8
+    21300018: hotel_desk_clerk-_businessman_9
+    21300020: hotel_desk_clerk-_businessman_10
+    21300022: hotel_desk_clerk-_businessman_11
+    21300024: hotel_desk_clerk-_businessman_12
+    21300026: hotel_desk_clerk-_businessman_13
+    21300028: hotel_desk_clerk-_businessman_14
+    21300030: hotel_desk_clerk-_businessman_15
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hotel_desk_clerk-_businessman_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hotel_desk_clerk-_businessman_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 156
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hotel_desk_clerk-_businessman_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 156
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hotel_desk_clerk-_businessman_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 156
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hotel_desk_clerk-_businessman_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hotel_desk_clerk-_businessman_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 104
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hotel_desk_clerk-_businessman_6
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 104
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hotel_desk_clerk-_businessman_7
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 104
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hotel_desk_clerk-_businessman_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hotel_desk_clerk-_businessman_9
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 52
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hotel_desk_clerk-_businessman_10
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 52
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hotel_desk_clerk-_businessman_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 52
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hotel_desk_clerk-_businessman_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hotel_desk_clerk-_businessman_13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hotel_desk_clerk-_businessman_14
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hotel_desk_clerk-_businessman_15
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline:
+    - - {x: -34, y: -86}
+      - {x: -36, y: -82}
+      - {x: -34, y: -85}
+      - {x: -33, y: -94}
+      - {x: -31, y: -104}
+      - {x: -1, y: -104}
+      - {x: -1, y: 41}
+      - {x: -3, y: 44}
+      - {x: -8, y: 51}
+      - {x: -6, y: 53}
+      - {x: -2, y: 63}
+      - {x: -3, y: 70}
+      - {x: -1, y: 78}
+      - {x: -1, y: 104}
+      - {x: -68, y: 104}
+      - {x: -68, y: -104}
+      - {x: -39, y: -104}
+      - {x: -38, y: -102}
+      - {x: -38, y: -100}
+      - {x: -34, y: -92}
+    - - {x: 61, y: -1}
+      - {x: 66, y: 4}
+      - {x: 66, y: 104}
+      - {x: -1, y: 104}
+      - {x: -1, y: -104}
+      - {x: 66, y: -104}
+      - {x: 66, y: -7}
+      - {x: 64, y: -6}
+    physicsShape:
+    - - {x: -34, y: -86}
+      - {x: -36, y: -82}
+      - {x: -35, y: -73}
+      - {x: -34, y: -85}
+      - {x: -33, y: -94}
+      - {x: -31, y: -104}
+      - {x: -7, y: -104}
+      - {x: -1, y: -98}
+      - {x: -1, y: -83}
+      - {x: -2, y: -79}
+      - {x: -1, y: -76}
+      - {x: -1, y: -61}
+      - {x: -4, y: -57}
+      - {x: -5, y: -35}
+      - {x: -1, y: -22}
+      - {x: -1, y: -8}
+      - {x: -2, y: -5}
+      - {x: -2, y: 33}
+      - {x: -3, y: 44}
+      - {x: -8, y: 51}
+      - {x: -6, y: 53}
+      - {x: -2, y: 63}
+      - {x: -3, y: 70}
+      - {x: -1, y: 78}
+      - {x: -1, y: 91}
+      - {x: -3, y: 100}
+      - {x: -11, y: 104}
+      - {x: -24, y: 104}
+      - {x: -28, y: 103}
+      - {x: -33, y: 104}
+      - {x: -61, y: 104}
+      - {x: -66, y: 98}
+      - {x: -68, y: 92}
+      - {x: -68, y: 31}
+      - {x: -62, y: 8}
+      - {x: -68, y: -5}
+      - {x: -65, y: -21}
+      - {x: -61, y: -42}
+      - {x: -67, y: -57}
+      - {x: -68, y: -64}
+      - {x: -68, y: -97}
+      - {x: -67, y: -104}
+      - {x: -39, y: -104}
+      - {x: -38, y: -102}
+      - {x: -38, y: -100}
+      - {x: -34, y: -92}
+    - - {x: 66, y: -95}
+      - {x: 63, y: -81}
+      - {x: 66, y: -72}
+      - {x: 66, y: -64}
+      - {x: 61, y: -55}
+      - {x: 65, y: -47}
+      - {x: 59, y: -33}
+      - {x: 66, y: -22}
+      - {x: 66, y: -16}
+      - {x: 64, y: -6}
+      - {x: 61, y: -1}
+      - {x: 65, y: 3}
+      - {x: 65, y: 17}
+      - {x: 66, y: 59}
+      - {x: 66, y: 90}
+      - {x: 63, y: 99}
+      - {x: 55, y: 104}
+      - {x: 40, y: 104}
+      - {x: 34, y: 103}
+      - {x: 31, y: 104}
+      - {x: 7, y: 104}
+      - {x: 3, y: 98}
+      - {x: 1, y: 92}
+      - {x: 1, y: 86}
+      - {x: 0, y: 71}
+      - {x: 0, y: 49}
+      - {x: -1, y: 47}
+      - {x: -1, y: 31}
+      - {x: 5, y: 8}
+      - {x: -1, y: -5}
+      - {x: 2, y: -21}
+      - {x: 7, y: -25}
+      - {x: 6, y: -42}
+      - {x: 8, y: -50}
+      - {x: 0, y: -57}
+      - {x: -1, y: -64}
+      - {x: -1, y: -71}
+      - {x: 5, y: -77}
+      - {x: -1, y: -84}
+      - {x: -1, y: -97}
+      - {x: 3, y: -104}
+      - {x: 29, y: -104}
+      - {x: 30, y: -103}
+      - {x: 36, y: -104}
+      - {x: 62, y: -104}
+    - - {x: 32, y: -84}
+      - {x: 32, y: -82}
+      - {x: 27, y: -77}
+      - {x: 32, y: -72}
+      - {x: 31, y: -72}
+      - {x: 38, y: -79}
+      - {x: 33, y: -84}
+      - {x: 33, y: -86}
+      - {x: 34, y: -86}
+    - - {x: -35, y: -62}
+      - {x: -35, y: -60}
+      - {x: -38, y: -41}
+      - {x: -33, y: -20}
+      - {x: -33, y: -14}
+      - {x: -37, y: -10}
+      - {x: -35, y: -8}
+      - {x: -34, y: -3}
+      - {x: -37, y: 34}
+      - {x: -35, y: 36}
+      - {x: -35, y: 57}
+      - {x: -38, y: 59}
+      - {x: -33, y: 64}
+      - {x: -34, y: 64}
+      - {x: -32, y: 62}
+      - {x: -34, y: 60}
+      - {x: -34, y: 42}
+      - {x: -32, y: 40}
+      - {x: -36, y: 36}
+      - {x: -36, y: 30}
+      - {x: -33, y: 11}
+      - {x: -32, y: 6}
+      - {x: -25, y: -1}
+      - {x: -21, y: -1}
+      - {x: -23, y: 1}
+      - {x: -25, y: -1}
+      - {x: -27, y: -1}
+      - {x: -34, y: -8}
+      - {x: -34, y: -18}
+      - {x: -32, y: -20}
+      - {x: -32, y: -22}
+      - {x: -35, y: -35}
+      - {x: -34, y: -49}
+      - {x: -29, y: -53}
+      - {x: -23, y: -53}
+      - {x: -22, y: -52}
+      - {x: -23, y: -51}
+      - {x: -25, y: -53}
+      - {x: -27, y: -53}
+      - {x: -34, y: -60}
+      - {x: -34, y: -64}
+      - {x: -33, y: -64}
+    - - {x: 32, y: -62}
+      - {x: 33, y: -59}
+      - {x: 34, y: -20}
+      - {x: 34, y: -14}
+      - {x: 30, y: -10}
+      - {x: 32, y: -8}
+      - {x: 33, y: -3}
+      - {x: 30, y: 34}
+      - {x: 32, y: 36}
+      - {x: 32, y: 46}
+      - {x: 34, y: 57}
+      - {x: 34, y: 61}
+      - {x: 35, y: 64}
+      - {x: 35, y: 70}
+      - {x: 34, y: 71}
+      - {x: 34, y: 74}
+      - {x: 33, y: 64}
+      - {x: 38, y: 59}
+      - {x: 37, y: 58}
+      - {x: 37, y: 54}
+      - {x: 40, y: 51}
+      - {x: 48, y: 51}
+      - {x: 49, y: 52}
+      - {x: 42, y: 53}
+      - {x: 40, y: 51}
+      - {x: 38, y: 51}
+      - {x: 33, y: 46}
+      - {x: 33, y: 42}
+      - {x: 35, y: 40}
+      - {x: 31, y: 36}
+      - {x: -11, y: 12}
+      - {x: -13, y: -7}
+      - {x: 33, y: -18}
+      - {x: 35, y: -20}
+      - {x: 35, y: -22}
+      - {x: 34, y: -43}
+      - {x: 35, y: -50}
+      - {x: 40, y: -55}
+      - {x: 42, y: -54}
+      - {x: 40, y: -53}
+      - {x: 33, y: -60}
+      - {x: 33, y: -64}
+      - {x: 34, y: -64}
+    - - {x: -35, y: 74}
+      - {x: -40, y: 79}
+      - {x: -35, y: 84}
+      - {x: -36, y: 84}
+      - {x: -30, y: 78}
+      - {x: -36, y: 72}
+      - {x: -35, y: 72}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
