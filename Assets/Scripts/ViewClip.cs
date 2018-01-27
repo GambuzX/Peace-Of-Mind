@@ -17,7 +17,7 @@ public class ViewClip : MonoBehaviour {
     public void UpdateViewClip(float health)
     {
         Color temp = new Color(1f, 1f, 1f, 0f);
-        temp.a = Mathf.Log(health, 500f);
+        temp.a = Mathf.Log(health, 800f);
         spriteRenderer.color = temp;
     }
 }

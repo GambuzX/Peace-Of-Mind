@@ -294,6 +294,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\OrderInLayer.cs" />
     <Compile Include="Assets\Scripts\AutistKid.cs" />
     <Compile Include="Assets\Scripts\Background.cs" />
     <Compile Include="Assets\Scripts\CameraShake.cs" />

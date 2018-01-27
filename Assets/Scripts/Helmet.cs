@@ -31,19 +31,24 @@ public class Helmet : MonoBehaviour {
 
     void ControlWaves()
     {
-        if (helmetOff)
+        foreach (SoundWaves waves in soundWaves)
         {
-            foreach (SoundWaves wave in soundWaves)
+            waves.GetComponent<Animator>().SetBool("HelmetOff", helmetOff);
+        }
+
+        /*if (helmetOff)
+        {
+            foreach (SoundWaves waveParent in soundWaves)
             {
-                wave.gameObject.SetActive(true);
+                waveParent.GetComponent<Animator>().enabled = true;
             }
         }
         else
         {
-            foreach (SoundWaves wave in soundWaves)
+            foreach (SoundWaves waveParent in soundWaves)
             {
-                wave.gameObject.SetActive(false);
+                waveParent.GetComponent<Animator>().enabled = false;
             }
-        }
+        }*/
     }
 }
