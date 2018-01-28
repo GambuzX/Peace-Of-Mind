@@ -51,7 +51,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\FinalAnimation.cs" />
+     <Compile Include="Assets\FinalLevel.cs" />
+     <Compile Include="Assets\LoseTrigger.cs" />
+     <Compile Include="Assets\Scripts\AudioController.cs" />
      <Compile Include="Assets\Scripts\Background.cs" />
+     <Compile Include="Assets\Scripts\Camera2DFollow.cs" />
      <Compile Include="Assets\Scripts\CameraShake.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\Enemy_Movement.cs" />
@@ -60,9 +65,15 @@
      <Compile Include="Assets\Scripts\OrderInLayer.cs" />
      <Compile Include="Assets\Scripts\Player\Health.cs" />
      <Compile Include="Assets\Scripts\Player\Helmet.cs" />
+     <Compile Include="Assets\Scripts\Player\Platformer2DUserControl.cs" />
+     <Compile Include="Assets\Scripts\Player\PlatformerCharacter2D.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Player\ViewClip.cs" />
      <Compile Include="Assets\Scripts\SoundWaves.cs" />
+     <Compile Include="Assets\StopRunning.cs" />
+     <Compile Include="Assets\TeleportSecondScene.cs" />
+     <Compile Include="Assets\WinController.cs" />
+     <Compile Include="Assets\Zipline.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity2017/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
