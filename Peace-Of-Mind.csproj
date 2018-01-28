@@ -312,6 +312,7 @@
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Player\ViewClip.cs" />
     <Compile Include="Assets\Scripts\SoundWaves.cs" />
+    <Compile Include="Assets\StopRunning.cs" />
     <Compile Include="Assets\TeleportSecondScene.cs" />
     <Compile Include="Assets\Zipline.cs" />
   </ItemGroup>
