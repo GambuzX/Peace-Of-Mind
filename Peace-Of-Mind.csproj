@@ -256,6 +256,9 @@
     <Reference Include="UnityEditor.Android.Extensions">
       <HintPath>Library\UnityAssemblies\UnityEditor.Android.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.WebGL.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>Library\UnityAssemblies\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
@@ -312,6 +315,7 @@
     <Compile Include="Assets\Scripts\SoundWaves.cs" />
     <Compile Include="Assets\StopRunning.cs" />
     <Compile Include="Assets\TeleportSecondScene.cs" />
+    <Compile Include="Assets\WinController.cs" />
     <Compile Include="Assets\Zipline.cs" />
   </ItemGroup>
   <ItemGroup>
