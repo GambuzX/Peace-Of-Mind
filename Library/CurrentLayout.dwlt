@@ -45,7 +45,11 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 70
+=======
+  controlID: 116
+>>>>>>> master
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -87,8 +91,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 330
     height: 442
+=======
+    width: 412
+    height: 531
+>>>>>>> master
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
@@ -210,7 +219,11 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 113
+=======
+  controlID: 117
+>>>>>>> master
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -234,7 +247,11 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 114
+=======
+  controlID: 118
+>>>>>>> master
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -517,7 +534,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: f6740000
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 344ee8ff1269e8ff5c8ae8ffcce8e9ffbe11eaff3272f6ff0273f6ff8648f7ff70ccf7ff623bffff5e3cffff0a3dfffffc3dffff2e3fffffbc3fffffa047ffff00000000dc780000087a0000f47a0000ac7b0000747c0000c67c00005a7f00007a830000c283000024880000c8880000ba8e0000d68e00002a930000b69400007a970000129800006c990000289f0000
+=======
+    m_ExpandedIDs: 62c3ffff40c4ffff8ec5ffff92c5ffff9cc5ffff00e8ffff68efffff7eefffff9efbffff00000000
+>>>>>>> master
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: Streetlight (12)
