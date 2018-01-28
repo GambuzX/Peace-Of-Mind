@@ -1,0 +1,622 @@
+fileFormatVersion: 2
+guid: 7fd985da43333ba4d9659b0f446abfc4
+timeCreated: 1517094293
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Photoshop_Furniture_0
+    21300002: Photoshop_Furniture_1
+    21300004: Photoshop_Furniture_2
+    21300006: Photoshop_Furniture_3
+    21300008: Photoshop_Furniture_4
+    21300010: Photoshop_Furniture_5
+    21300012: Photoshop_Furniture_6
+    21300014: Photoshop_Furniture_7
+    21300016: Photoshop_Furniture_8
+    21300018: Photoshop_Furniture_9
+    21300020: Photoshop_Furniture_10
+    21300022: Photoshop_Furniture_11
+    21300024: Photoshop_Furniture_12
+    21300026: Photoshop_Furniture_13
+    21300028: Photoshop_Furniture_14
+    21300030: Photoshop_Furniture_15
+    21300032: Photoshop_Furniture_16
+    21300034: Photoshop_Furniture_17
+    21300036: Photoshop_Furniture_18
+    21300038: Photoshop_Furniture_19
+    21300040: Photoshop_Furniture_20
+    21300042: Photoshop_Furniture_21
+    21300044: Photoshop_Furniture_22
+    21300046: Photoshop_Furniture_23
+    21300048: Photoshop_Furniture_24
+    21300050: Photoshop_Furniture_25
+    21300052: Photoshop_Furniture_26
+    21300054: Photoshop_Furniture_27
+    21300056: Photoshop_Furniture_28
+    21300058: Photoshop_Furniture_29
+    21300060: Photoshop_Furniture_30
+    21300062: Photoshop_Furniture_31
+    21300064: Photoshop_Furniture_32
+    21300066: Photoshop_Furniture_33
+    21300068: Photoshop_Furniture_34
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Photoshop_Furniture_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 839
+        width: 178
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_1
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 848
+        width: 238
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_2
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 843
+        width: 120
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_3
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 840
+        width: 136
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 847
+        width: 77
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_5
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 840
+        width: 98
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 694
+        width: 102
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_7
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 704
+        width: 219
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_8
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 631
+        width: 187
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_9
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 679
+        width: 75
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_10
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 682
+        width: 57
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_11
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 759
+        width: 90
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_12
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 551
+        width: 204
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_13
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 544
+        width: 181
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_14
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 640
+        width: 70
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_15
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 583
+        width: 173
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_16
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 505
+        width: 67
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_17
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 511
+        width: 88
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 420
+        width: 143
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_19
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 411
+        width: 93
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_20
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 340
+        width: 147
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_21
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 388
+        width: 91
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_22
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 300
+        width: 37
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_23
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 324
+        width: 66
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_24
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 284
+        width: 159
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_25
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 242
+        width: 115
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_26
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 196
+        width: 70
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_27
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 197
+        width: 43
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_28
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 192
+        width: 179
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_29
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 15
+        width: 152
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_30
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 23
+        width: 171
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_31
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 178
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_32
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 12
+        width: 157
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_33
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 29
+        width: 150
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Photoshop_Furniture_34
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 22
+        width: 208
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
