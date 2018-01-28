@@ -35,20 +35,5 @@ public class Helmet : MonoBehaviour {
         {
             waves.GetComponent<Animator>().SetBool("HelmetOff", helmetOff);
         }
-
-        /*if (helmetOff)
-        {
-            foreach (SoundWaves waveParent in soundWaves)
-            {
-                waveParent.GetComponent<Animator>().enabled = true;
-            }
-        }
-        else
-        {
-            foreach (SoundWaves waveParent in soundWaves)
-            {
-                waveParent.GetComponent<Animator>().enabled = false;
-            }
-        }*/
     }
 }
