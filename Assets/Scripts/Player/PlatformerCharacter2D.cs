@@ -19,10 +19,8 @@ namespace UnityStandardAssets._2D
         private Animator m_Anim;            // Reference to the player's animator component.
         private Rigidbody2D m_Rigidbody2D;
         private bool m_FacingRight = true;  // For determining which way the player is currently facing.
-        private Helmet helmet;
 
         public float climbFactor;
-        public float newSpeed, newJumpForce, newClimbFactor;
 
         private void Awake()
         {
@@ -31,7 +29,6 @@ namespace UnityStandardAssets._2D
             m_CeilingCheck = transform.Find("CeilingCheck");
             m_Anim = GetComponent<Animator>();
             m_Rigidbody2D = GetComponent<Rigidbody2D>();
-            helmet = GameObject.FindObjectOfType<Helmet>();
         }
 
 
@@ -51,20 +48,6 @@ namespace UnityStandardAssets._2D
 
             // Set the vertical animation
             m_Anim.SetFloat("vSpeed", m_Rigidbody2D.velocity.y);
-        }
-
-        private void Update()
-        {
-            if (helmet.helmetOff)
-            {
-                m_MaxSpeed = newSpeed;
-                m_JumpForce = newJumpForce;
-                climbFactor = newClimbFactor;
-            } else
-            {
-                m_MaxSpeed = 10;
-                m_JumpForce = 800;
-            }
         }
 
 

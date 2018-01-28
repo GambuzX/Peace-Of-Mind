@@ -8,11 +8,6 @@ public class LevelManager : MonoBehaviour {
 		Application.LoadLevel ("Level01");
 	}
 
-    public void loadLevel(string level)
-    {
-        Application.LoadLevel(level);
-    }
-
 	public void ExitGame() {
 		Application.Quit ();
 	}
