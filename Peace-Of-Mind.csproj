@@ -291,6 +291,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\FinalAnimation.cs" />
     <Compile Include="Assets\FinalLevel.cs" />
     <Compile Include="Assets\LoseTrigger.cs" />
     <Compile Include="Assets\Scripts\AudioController.cs" />
