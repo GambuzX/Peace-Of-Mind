@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4883497453627144}
   - component: {fileID: 212569407497752154}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tileable_bricks_single (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37,7 +37,7 @@ GameObject:
   - component: {fileID: 4633900897459612}
   - component: {fileID: 60790248230585490}
   - component: {fileID: 50120670746218796}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: New Floor Inverted
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53,7 +53,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4965047071221434}
   - component: {fileID: 212608339029160450}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tileable_bricks_single (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,7 +69,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4255515406595100}
   - component: {fileID: 212975280685385304}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tileable_bricks_single (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

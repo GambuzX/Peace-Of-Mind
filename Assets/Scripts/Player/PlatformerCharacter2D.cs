@@ -140,7 +140,14 @@ namespace UnityStandardAssets._2D
                     this.transform.Translate(Vector3.up * climbFactor * Time.deltaTime);
                 }
             }
-        }
+
+			m_AirControl = false;
+		}
+
+		void OnCollisionExit2D(Collision2D col)
+		{
+			m_AirControl = true;
+		}
 
     }
 }
