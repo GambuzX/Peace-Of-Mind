@@ -132,16 +132,17 @@ namespace UnityStandardAssets._2D
 
         void OnCollisionStay2D(Collision2D col)
         {
-            if (col.transform.tag == "Climbable")
+			m_AirControl = false;  //disable air control to prevent from bug climbing buildings borders
+
+			if (col.transform.tag == "Climbable")
             {
-                if (Input.GetButton("Jump"))
+				if (Input.GetButton("Jump"))
                 {
-                    Debug.Log("Climbing");
+					m_AirControl = true;
                     this.transform.Translate(Vector3.up * climbFactor * Time.deltaTime);
                 }
             }
 
-			m_AirControl = false;
 		}
 
 		void OnCollisionExit2D(Collision2D col)
