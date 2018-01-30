@@ -150,5 +150,22 @@ namespace UnityStandardAssets._2D
 			m_AirControl = true;
 		}
 
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            if (collision.transform.tag == "Force crouch")
+            {
+                m_Anim.SetBool("ForcedCrouching", true);
+                m_Anim.Play("CrouchingWalk");
+            }
+        }
+
+        private void OnTriggerExit2D(Collider2D collision)
+        {
+            if (collision.transform.tag == "Force crouch")
+            {
+                m_Anim.SetBool("ForcedCrouching", false);
+            }
+        }
+
     }
 }
