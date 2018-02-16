@@ -24,6 +24,11 @@ namespace UnityStandardAssets._2D
                 // Read the jump input in Update so button presses aren't missed.
                 m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
             }
+
+            if (CrossPlatformInputManager.GetButtonDown("Jump"))
+            {
+                m_Character.EnableAirControl();
+            }
         }
 
 
