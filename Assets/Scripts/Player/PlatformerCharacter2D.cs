@@ -116,6 +116,8 @@ namespace UnityStandardAssets._2D
                 m_Grounded = false;
                 m_Anim.SetBool("Ground", false);
                 m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+
+                EnableAirControl();
             }
         }
 
@@ -137,8 +139,6 @@ namespace UnityStandardAssets._2D
             {
                 m_AirControl = false;  //disable air control to prevent from bug climbing buildings borders
 
-                Debug.Log("Colliding");
-
                 if (col.transform.tag == "Climbable")
                 {
                     if (Input.GetButton("Jump"))
@@ -153,7 +153,8 @@ namespace UnityStandardAssets._2D
 
 		void OnCollisionExit2D(Collision2D col)
 		{
-			m_AirControl = true;
+            Debug.Log("Left collision");
+            m_AirControl = true;
 		}
 
         private void OnTriggerEnter2D(Collider2D collision)
