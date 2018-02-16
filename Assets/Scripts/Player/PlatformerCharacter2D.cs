@@ -65,6 +65,7 @@ namespace UnityStandardAssets._2D
                 m_MaxSpeed = 10;
                 m_JumpForce = 800;
             }
+
         }
 
 
@@ -132,14 +133,19 @@ namespace UnityStandardAssets._2D
 
         void OnCollisionStay2D(Collision2D col)
         {
-			m_AirControl = false;  //disable air control to prevent from bug climbing buildings borders
-
-			if (col.transform.tag == "Climbable")
+            if (col.transform.parent.transform.tag != "Player")
             {
-				if (Input.GetButton("Jump"))
+                m_AirControl = false;  //disable air control to prevent from bug climbing buildings borders
+
+                Debug.Log("Colliding");
+
+                if (col.transform.tag == "Climbable")
                 {
-					m_AirControl = true;
-                    this.transform.Translate(Vector3.up * climbFactor * Time.deltaTime);
+                    if (Input.GetButton("Jump"))
+                    {
+                        m_AirControl = true;
+                        this.transform.Translate(Vector3.up * climbFactor * Time.deltaTime);
+                    }
                 }
             }
 
@@ -165,6 +171,11 @@ namespace UnityStandardAssets._2D
             {
                 m_Anim.SetBool("ForcedCrouching", false);
             }
+        }
+
+        public void EnableAirControl()
+        {
+            m_AirControl = true;
         }
 
     }
