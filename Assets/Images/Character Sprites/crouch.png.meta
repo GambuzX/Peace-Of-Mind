@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 31392236a3c1ab64dbce66022bea4394
-timeCreated: 1517105511
+timeCreated: 1518770350
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -125,9 +125,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3454
-        width: 550
-        height: 550
+        y: 3466
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,10 +138,10 @@ TextureImporter:
       name: crouch_1
       rect:
         serializedVersion: 2
-        x: 550
-        y: 3454
-        width: 550
-        height: 550
+        x: 538
+        y: 3466
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,10 +152,10 @@ TextureImporter:
       name: crouch_2
       rect:
         serializedVersion: 2
-        x: 1100
-        y: 3454
-        width: 550
-        height: 550
+        x: 1076
+        y: 3466
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +166,10 @@ TextureImporter:
       name: crouch_3
       rect:
         serializedVersion: 2
-        x: 1650
-        y: 3454
-        width: 550
-        height: 550
+        x: 1614
+        y: 3466
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,10 +180,10 @@ TextureImporter:
       name: crouch_4
       rect:
         serializedVersion: 2
-        x: 2200
-        y: 3454
-        width: 550
-        height: 550
+        x: 2152
+        y: 3466
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +194,10 @@ TextureImporter:
       name: crouch_5
       rect:
         serializedVersion: 2
-        x: 2750
-        y: 3454
-        width: 550
-        height: 550
+        x: 2690
+        y: 3466
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,10 +208,10 @@ TextureImporter:
       name: crouch_6
       rect:
         serializedVersion: 2
-        x: 3300
-        y: 3454
-        width: 550
-        height: 550
+        x: 3228
+        y: 3466
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,9 +223,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2904
-        width: 550
-        height: 550
+        y: 2928
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,10 +236,10 @@ TextureImporter:
       name: crouch_8
       rect:
         serializedVersion: 2
-        x: 550
-        y: 2904
-        width: 550
-        height: 550
+        x: 538
+        y: 2928
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,10 +250,10 @@ TextureImporter:
       name: crouch_9
       rect:
         serializedVersion: 2
-        x: 1100
-        y: 2904
-        width: 550
-        height: 550
+        x: 1076
+        y: 2928
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,10 +264,10 @@ TextureImporter:
       name: crouch_10
       rect:
         serializedVersion: 2
-        x: 1650
-        y: 2904
-        width: 550
-        height: 550
+        x: 1614
+        y: 2928
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,10 +278,10 @@ TextureImporter:
       name: crouch_11
       rect:
         serializedVersion: 2
-        x: 2200
-        y: 2904
-        width: 550
-        height: 550
+        x: 2152
+        y: 2928
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,10 +292,10 @@ TextureImporter:
       name: crouch_12
       rect:
         serializedVersion: 2
-        x: 2750
-        y: 2904
-        width: 550
-        height: 550
+        x: 2690
+        y: 2928
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,10 +306,10 @@ TextureImporter:
       name: crouch_13
       rect:
         serializedVersion: 2
-        x: 3300
-        y: 2904
-        width: 550
-        height: 550
+        x: 3228
+        y: 2928
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,9 +321,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2354
-        width: 550
-        height: 550
+        y: 2390
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,10 +334,10 @@ TextureImporter:
       name: crouch_15
       rect:
         serializedVersion: 2
-        x: 550
-        y: 2354
-        width: 550
-        height: 550
+        x: 538
+        y: 2390
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,10 +348,10 @@ TextureImporter:
       name: crouch_16
       rect:
         serializedVersion: 2
-        x: 1100
-        y: 2354
-        width: 550
-        height: 550
+        x: 1076
+        y: 2390
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,10 +362,10 @@ TextureImporter:
       name: crouch_17
       rect:
         serializedVersion: 2
-        x: 1650
-        y: 2354
-        width: 550
-        height: 550
+        x: 1614
+        y: 2390
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,10 +376,10 @@ TextureImporter:
       name: crouch_18
       rect:
         serializedVersion: 2
-        x: 2200
-        y: 2354
-        width: 550
-        height: 550
+        x: 2152
+        y: 2390
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -390,10 +390,10 @@ TextureImporter:
       name: crouch_19
       rect:
         serializedVersion: 2
-        x: 2750
-        y: 2354
-        width: 550
-        height: 550
+        x: 2690
+        y: 2390
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,10 +404,10 @@ TextureImporter:
       name: crouch_20
       rect:
         serializedVersion: 2
-        x: 3300
-        y: 2354
-        width: 550
-        height: 550
+        x: 3228
+        y: 2390
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: b85f9edb0df8c4d4c910acfc794d3605
-timeCreated: 1517099586
+timeCreated: 1518770391
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -30,6 +30,32 @@ TextureImporter:
     21300046: 27535629_2042021119158612_16142202_o_23
     21300048: 27535629_2042021119158612_16142202_o_24
     21300050: 27535629_2042021119158612_16142202_o_25
+    21300052: jump_0
+    21300054: jump_1
+    21300056: jump_2
+    21300058: jump_3
+    21300060: jump_4
+    21300062: jump_5
+    21300064: jump_6
+    21300066: jump_7
+    21300068: jump_8
+    21300070: jump_9
+    21300072: jump_10
+    21300074: jump_11
+    21300076: jump_12
+    21300078: jump_13
+    21300080: jump_14
+    21300082: jump_15
+    21300084: jump_16
+    21300086: jump_17
+    21300088: jump_18
+    21300090: jump_19
+    21300092: jump_20
+    21300094: jump_21
+    21300096: jump_22
+    21300098: jump_23
+    21300100: jump_24
+    21300102: jump_25
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -126,13 +152,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_0
+      name: jump_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 3454
-        width: 550
-        height: 550
+        y: 3466
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,13 +166,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_1
+      name: jump_1
       rect:
         serializedVersion: 2
-        x: 550
-        y: 3454
-        width: 550
-        height: 550
+        x: 538
+        y: 3466
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,13 +180,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_2
+      name: jump_2
       rect:
         serializedVersion: 2
-        x: 1100
-        y: 3454
-        width: 550
-        height: 550
+        x: 1076
+        y: 3466
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,13 +194,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_3
+      name: jump_3
       rect:
         serializedVersion: 2
-        x: 1650
-        y: 3454
-        width: 550
-        height: 550
+        x: 1614
+        y: 3466
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,13 +208,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_4
+      name: jump_4
       rect:
         serializedVersion: 2
-        x: 2200
-        y: 3454
-        width: 550
-        height: 550
+        x: 2152
+        y: 3466
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,13 +222,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_5
+      name: jump_5
       rect:
         serializedVersion: 2
-        x: 2750
-        y: 3454
-        width: 550
-        height: 550
+        x: 2690
+        y: 3466
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,13 +236,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_6
+      name: jump_6
       rect:
         serializedVersion: 2
-        x: 3300
-        y: 3454
-        width: 550
-        height: 550
+        x: 3228
+        y: 3466
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,111 +250,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_7
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 2904
-        width: 550
-        height: 550
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_8
-      rect:
-        serializedVersion: 2
-        x: 550
-        y: 2904
-        width: 550
-        height: 550
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_9
-      rect:
-        serializedVersion: 2
-        x: 1100
-        y: 2904
-        width: 550
-        height: 550
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_10
-      rect:
-        serializedVersion: 2
-        x: 1650
-        y: 2904
-        width: 550
-        height: 550
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_11
-      rect:
-        serializedVersion: 2
-        x: 2200
-        y: 2904
-        width: 550
-        height: 550
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_12
-      rect:
-        serializedVersion: 2
-        x: 2750
-        y: 2904
-        width: 550
-        height: 550
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_13
-      rect:
-        serializedVersion: 2
-        x: 3300
-        y: 2904
-        width: 550
-        height: 550
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_14
+      name: jump_7
       rect:
         serializedVersion: 2
         x: 0
-        y: 2354
-        width: 550
-        height: 550
+        y: 2928
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,13 +264,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_15
+      name: jump_8
       rect:
         serializedVersion: 2
-        x: 550
-        y: 2354
-        width: 550
-        height: 550
+        x: 538
+        y: 2928
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,13 +278,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_16
+      name: jump_9
       rect:
         serializedVersion: 2
-        x: 1100
-        y: 2354
-        width: 550
-        height: 550
+        x: 1076
+        y: 2928
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -364,13 +292,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_17
+      name: jump_10
       rect:
         serializedVersion: 2
-        x: 1650
-        y: 2354
-        width: 550
-        height: 550
+        x: 1614
+        y: 2928
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,13 +306,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_18
+      name: jump_11
       rect:
         serializedVersion: 2
-        x: 2200
-        y: 2354
-        width: 550
-        height: 550
+        x: 2152
+        y: 2928
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,13 +320,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_19
+      name: jump_12
       rect:
         serializedVersion: 2
-        x: 2750
-        y: 2354
-        width: 550
-        height: 550
+        x: 2690
+        y: 2928
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -406,13 +334,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_20
+      name: jump_13
       rect:
         serializedVersion: 2
-        x: 3300
-        y: 2354
-        width: 550
-        height: 550
+        x: 3228
+        y: 2928
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -420,13 +348,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_21
+      name: jump_14
       rect:
         serializedVersion: 2
         x: 0
-        y: 1804
-        width: 550
-        height: 550
+        y: 2390
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,13 +362,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_22
+      name: jump_15
       rect:
         serializedVersion: 2
-        x: 550
-        y: 1804
-        width: 550
-        height: 550
+        x: 538
+        y: 2390
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,13 +376,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_23
+      name: jump_16
       rect:
         serializedVersion: 2
-        x: 1100
-        y: 1804
-        width: 550
-        height: 550
+        x: 1076
+        y: 2390
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -462,13 +390,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_24
+      name: jump_17
       rect:
         serializedVersion: 2
-        x: 1650
-        y: 1804
-        width: 550
-        height: 550
+        x: 1614
+        y: 2390
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,13 +404,111 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 27535629_2042021119158612_16142202_o_25
+      name: jump_18
       rect:
         serializedVersion: 2
-        x: 2200
-        y: 1804
-        width: 550
-        height: 550
+        x: 2152
+        y: 2390
+        width: 538
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: jump_19
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 2390
+        width: 538
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: jump_20
+      rect:
+        serializedVersion: 2
+        x: 3228
+        y: 2390
+        width: 538
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: jump_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1852
+        width: 538
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: jump_22
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1852
+        width: 538
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: jump_23
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1852
+        width: 538
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: jump_24
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 1852
+        width: 538
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: jump_25
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 1852
+        width: 538
+        height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
