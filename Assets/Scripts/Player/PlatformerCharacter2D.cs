@@ -64,6 +64,7 @@ namespace UnityStandardAssets._2D
             {
                 m_MaxSpeed = 10;
                 m_JumpForce = 800;
+                climbFactor = 10;
             }
 
         }

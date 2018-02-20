@@ -566,12 +566,12 @@ Prefab:
     - target: {fileID: 114608467531276042, guid: 4b4a5ead4de958748b607613558f5c6c,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114608467531276042, guid: 4b4a5ead4de958748b607613558f5c6c,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1482747793047060, guid: 4b4a5ead4de958748b607613558f5c6c, type: 2}
       propertyPath: m_Layer
@@ -897,12 +897,12 @@ Prefab:
     - target: {fileID: 114565412142599070, guid: 7aac1a43da77c644f915bd55c79204d9,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114565412142599070, guid: 7aac1a43da77c644f915bd55c79204d9,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7aac1a43da77c644f915bd55c79204d9, type: 2}
@@ -1601,7 +1601,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -1622,7 +1622,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -1707,7 +1707,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -1771,7 +1771,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -1792,7 +1792,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -1875,12 +1875,12 @@ Prefab:
     - target: {fileID: 114084690525685164, guid: 8ee3828cc1efdf841b13fac8591fceb7,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114084690525685164, guid: 8ee3828cc1efdf841b13fac8591fceb7,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1808090888902812, guid: 8ee3828cc1efdf841b13fac8591fceb7, type: 2}
       propertyPath: m_Layer
@@ -2599,18 +2599,18 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 53334412}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 7.0721416}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 2000444488}
   - {fileID: 1150194358}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 1644326084}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -653.7497, y: -246.74174}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &54120825
@@ -3347,7 +3347,7 @@ AudioSource:
   MinDistance: 0.7503853
   MaxDistance: 30.192736
   Pan2D: 0
-  rolloffMode: 2
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -3355,22 +3355,16 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
-      time: 0.3226014
+      time: 0
       value: 1
-      inSlope: -3.1010401
-      outSlope: -3.1010401
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 0.7038118
-      value: 0.09259033
-      inSlope: -0.77526003
-      outSlope: -0.77526003
+      inSlope: 0
+      outSlope: 0
       tangentMode: 0
     - serializedVersion: 2
       time: 1
       value: 0
-      inSlope: -0.3227301
-      outSlope: -0.3227301
+      inSlope: 0
+      outSlope: 0
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -3424,8 +3418,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 8
-  audioNormalDistance: 10
-  audioBoostedDistance: 30
+  audioNormalDistance: 25
+  audioBoostedDistance: 40
 --- !u!95 &84972531
 Animator:
   serializedVersion: 3
@@ -4720,11 +4714,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4398131756711552, guid: a21e106ddf64f3b45848dab3748c138b, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 250.3
+      value: 374.1
       objectReference: {fileID: 0}
     - target: {fileID: 4398131756711552, guid: a21e106ddf64f3b45848dab3748c138b, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 45.8
       objectReference: {fileID: 0}
     - target: {fileID: 4398131756711552, guid: a21e106ddf64f3b45848dab3748c138b, type: 2}
       propertyPath: m_LocalPosition.z
@@ -5196,7 +5190,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -5217,7 +5211,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -7737,12 +7731,12 @@ Prefab:
     - target: {fileID: 114608467531276042, guid: 4b4a5ead4de958748b607613558f5c6c,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114608467531276042, guid: 4b4a5ead4de958748b607613558f5c6c,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1482747793047060, guid: 4b4a5ead4de958748b607613558f5c6c, type: 2}
       propertyPath: m_Layer
@@ -8507,7 +8501,7 @@ AudioSource:
   MinDistance: 0.7503853
   MaxDistance: 30.192736
   Pan2D: 0
-  rolloffMode: 2
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -8515,22 +8509,16 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
-      time: 0.3226014
+      time: 0
       value: 1
-      inSlope: -3.1010401
-      outSlope: -3.1010401
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 0.7038118
-      value: 0.09259033
-      inSlope: -0.77526003
-      outSlope: -0.77526003
+      inSlope: 0
+      outSlope: 0
       tangentMode: 0
     - serializedVersion: 2
       time: 1
       value: 0
-      inSlope: -0.3227301
-      outSlope: -0.3227301
+      inSlope: 0
+      outSlope: 0
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -8584,8 +8572,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 8
-  audioNormalDistance: 10
-  audioBoostedDistance: 30
+  audioNormalDistance: 25
+  audioBoostedDistance: 40
 --- !u!95 &243424284
 Animator:
   serializedVersion: 3
@@ -8685,7 +8673,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -8735,8 +8723,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 12
-  audioNormalDistance: 10
-  audioBoostedDistance: 30
+  audioNormalDistance: 25
+  audioBoostedDistance: 40
 --- !u!95 &247116951
 Animator:
   serializedVersion: 3
@@ -9444,7 +9432,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -9494,8 +9482,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 12
-  audioNormalDistance: 10
-  audioBoostedDistance: 30
+  audioNormalDistance: 25
+  audioBoostedDistance: 40
 --- !u!95 &275061400
 Animator:
   serializedVersion: 3
@@ -9671,7 +9659,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -9721,8 +9709,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 12
-  audioNormalDistance: 10
-  audioBoostedDistance: 30
+  audioNormalDistance: 25
+  audioBoostedDistance: 40
 --- !u!95 &279732410
 Animator:
   serializedVersion: 3
@@ -12196,7 +12184,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -12217,7 +12205,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -12267,8 +12255,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 2
-  audioNormalDistance: 5
-  audioBoostedDistance: 20
+  audioNormalDistance: 10
+  audioBoostedDistance: 30
 --- !u!95 &350041653
 Animator:
   serializedVersion: 3
@@ -13105,12 +13093,12 @@ Prefab:
     - target: {fileID: 114384116402643308, guid: 2352598bd1afbc547969ab7a9c4886f3,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114384116402643308, guid: 2352598bd1afbc547969ab7a9c4886f3,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2352598bd1afbc547969ab7a9c4886f3, type: 2}
@@ -13318,12 +13306,12 @@ Prefab:
     - target: {fileID: 114142004039164306, guid: ed89bd94c4183164ab49097c71b955d8,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114142004039164306, guid: ed89bd94c4183164ab49097c71b955d8,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ed89bd94c4183164ab49097c71b955d8, type: 2}
@@ -14206,12 +14194,12 @@ Prefab:
     - target: {fileID: 114084690525685164, guid: 8ee3828cc1efdf841b13fac8591fceb7,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114084690525685164, guid: 8ee3828cc1efdf841b13fac8591fceb7,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8ee3828cc1efdf841b13fac8591fceb7, type: 2}
@@ -20847,12 +20835,12 @@ Prefab:
     - target: {fileID: 114084690525685164, guid: 8ee3828cc1efdf841b13fac8591fceb7,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114084690525685164, guid: 8ee3828cc1efdf841b13fac8591fceb7,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8ee3828cc1efdf841b13fac8591fceb7, type: 2}
@@ -22268,8 +22256,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 6
-  audioNormalDistance: 5
-  audioBoostedDistance: 20
+  audioNormalDistance: 10
+  audioBoostedDistance: 30
 --- !u!95 &606361618
 Animator:
   serializedVersion: 3
@@ -22310,7 +22298,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -22331,7 +22319,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -23050,7 +23038,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -23387,7 +23375,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -23408,7 +23396,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -23458,8 +23446,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 2
-  audioNormalDistance: 5
-  audioBoostedDistance: 20
+  audioNormalDistance: 10
+  audioBoostedDistance: 30
 --- !u!95 &625088325
 Animator:
   serializedVersion: 3
@@ -23704,7 +23692,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -23754,8 +23742,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 6
-  audioNormalDistance: 5
-  audioBoostedDistance: 20
+  audioNormalDistance: 10
+  audioBoostedDistance: 30
 --- !u!95 &635169238
 Animator:
   serializedVersion: 3
@@ -25857,7 +25845,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -26118,7 +26106,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -26139,7 +26127,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -26189,8 +26177,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 2
-  audioNormalDistance: 5
-  audioBoostedDistance: 20
+  audioNormalDistance: 10
+  audioBoostedDistance: 30
 --- !u!95 &693603465
 Animator:
   serializedVersion: 3
@@ -28558,7 +28546,7 @@ AudioSource:
   MinDistance: 0.7503853
   MaxDistance: 30.192736
   Pan2D: 0
-  rolloffMode: 2
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -28566,22 +28554,16 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
-      time: 0.3226014
+      time: 0
       value: 1
-      inSlope: -3.1010401
-      outSlope: -3.1010401
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 0.7038118
-      value: 0.09259033
-      inSlope: -0.77526003
-      outSlope: -0.77526003
+      inSlope: 0
+      outSlope: 0
       tangentMode: 0
     - serializedVersion: 2
       time: 1
       value: 0
-      inSlope: -0.3227301
-      outSlope: -0.3227301
+      inSlope: 0
+      outSlope: 0
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -28635,8 +28617,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 8
-  audioNormalDistance: 10
-  audioBoostedDistance: 30
+  audioNormalDistance: 25
+  audioBoostedDistance: 40
 --- !u!95 &756987325
 Animator:
   serializedVersion: 3
@@ -28930,12 +28912,12 @@ Prefab:
     - target: {fileID: 114384116402643308, guid: 2352598bd1afbc547969ab7a9c4886f3,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114384116402643308, guid: 2352598bd1afbc547969ab7a9c4886f3,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2352598bd1afbc547969ab7a9c4886f3, type: 2}
@@ -30598,12 +30580,12 @@ Prefab:
     - target: {fileID: 114142004039164306, guid: ed89bd94c4183164ab49097c71b955d8,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114142004039164306, guid: ed89bd94c4183164ab49097c71b955d8,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ed89bd94c4183164ab49097c71b955d8, type: 2}
@@ -32678,12 +32660,12 @@ Prefab:
     - target: {fileID: 114384116402643308, guid: 2352598bd1afbc547969ab7a9c4886f3,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114384116402643308, guid: 2352598bd1afbc547969ab7a9c4886f3,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2352598bd1afbc547969ab7a9c4886f3, type: 2}
@@ -32906,7 +32888,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -33517,12 +33499,12 @@ Prefab:
     - target: {fileID: 114967644192125236, guid: dee74eeb3958c1344beaa94cab54485c,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114967644192125236, guid: dee74eeb3958c1344beaa94cab54485c,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1274285835460518, guid: dee74eeb3958c1344beaa94cab54485c, type: 2}
       propertyPath: m_Layer
@@ -34279,7 +34261,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -35644,7 +35626,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -36735,7 +36717,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -36756,7 +36738,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -38310,7 +38292,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -38360,8 +38342,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 6
-  audioNormalDistance: 5
-  audioBoostedDistance: 20
+  audioNormalDistance: 10
+  audioBoostedDistance: 30
 --- !u!95 &1021396016
 Animator:
   serializedVersion: 3
@@ -40157,7 +40139,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -42364,6 +42346,21 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 82611714337928860, guid: 5885eb241dd73e5418e634f2032efaea,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114125231297803552, guid: 5885eb241dd73e5418e634f2032efaea,
+        type: 2}
+      propertyPath: audioNormalDistance
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114125231297803552, guid: 5885eb241dd73e5418e634f2032efaea,
+        type: 2}
+      propertyPath: audioBoostedDistance
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
     - {fileID: 0}
@@ -42804,6 +42801,21 @@ Prefab:
     - target: {fileID: 1844019295359598, guid: 5885eb241dd73e5418e634f2032efaea, type: 2}
       propertyPath: m_Name
       value: Helicopter (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 82611714337928860, guid: 5885eb241dd73e5418e634f2032efaea,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114125231297803552, guid: 5885eb241dd73e5418e634f2032efaea,
+        type: 2}
+      propertyPath: audioNormalDistance
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114125231297803552, guid: 5885eb241dd73e5418e634f2032efaea,
+        type: 2}
+      propertyPath: audioBoostedDistance
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -44987,7 +44999,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -45008,7 +45020,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -45058,8 +45070,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 2
-  audioNormalDistance: 5
-  audioBoostedDistance: 20
+  audioNormalDistance: 10
+  audioBoostedDistance: 30
 --- !u!95 &1209620086
 Animator:
   serializedVersion: 3
@@ -45905,7 +45917,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1232771337}
   m_Layer: 0
-  m_Name: Enemies
+  m_Name: Entities
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47770,7 +47782,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -49326,7 +49338,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -49363,47 +49375,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!1 &1338205036
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1338205038}
-  - component: {fileID: 1338205037}
-  m_Layer: 0
-  m_Name: Pause System
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1338205037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1338205036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79f76d0187fb6e8468979bf24517ee11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PauseScreen: {fileID: 53334412}
---- !u!4 &1338205038
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1338205036}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 653.7497, y: 246.74174, z: -7.0721416}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1339212383
 GameObject:
   m_ObjectHideFlags: 0
@@ -49691,7 +49662,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -49712,7 +49683,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -49762,8 +49733,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 2
-  audioNormalDistance: 5
-  audioBoostedDistance: 20
+  audioNormalDistance: 10
+  audioBoostedDistance: 30
 --- !u!95 &1350019765
 Animator:
   serializedVersion: 3
@@ -50523,7 +50494,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -50573,8 +50544,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 6
-  audioNormalDistance: 5
-  audioBoostedDistance: 20
+  audioNormalDistance: 10
+  audioBoostedDistance: 30
 --- !u!95 &1375790141
 Animator:
   serializedVersion: 3
@@ -51193,12 +51164,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1394954314}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -653.7497, y: -246.74174, z: 7.0721416}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 1644326084}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1395265706
 GameObject:
@@ -52024,7 +51995,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -52074,8 +52045,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 12
-  audioNormalDistance: 10
-  audioBoostedDistance: 30
+  audioNormalDistance: 25
+  audioBoostedDistance: 40
 --- !u!95 &1420338525
 Animator:
   serializedVersion: 3
@@ -55222,7 +55193,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -55272,8 +55243,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 6
-  audioNormalDistance: 5
-  audioBoostedDistance: 20
+  audioNormalDistance: 10
+  audioBoostedDistance: 30
 --- !u!95 &1526068486
 Animator:
   serializedVersion: 3
@@ -56462,12 +56433,12 @@ Prefab:
     - target: {fileID: 114084690525685164, guid: 8ee3828cc1efdf841b13fac8591fceb7,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114084690525685164, guid: 8ee3828cc1efdf841b13fac8591fceb7,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 60979889953798882, guid: 8ee3828cc1efdf841b13fac8591fceb7, type: 2}
@@ -57654,7 +57625,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -57675,7 +57646,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -58515,7 +58486,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -58565,8 +58536,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 6
-  audioNormalDistance: 5
-  audioBoostedDistance: 20
+  audioNormalDistance: 10
+  audioBoostedDistance: 30
 --- !u!95 &1611789970
 Animator:
   serializedVersion: 3
@@ -60043,7 +60014,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -60093,8 +60064,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 6
-  audioNormalDistance: 5
-  audioBoostedDistance: 20
+  audioNormalDistance: 10
+  audioBoostedDistance: 30
 --- !u!95 &1641580014
 Animator:
   serializedVersion: 3
@@ -60113,6 +60084,49 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &1644326083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1644326084}
+  - component: {fileID: 1644326085}
+  m_Layer: 0
+  m_Name: PauseSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1644326084
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1644326083}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 653.7497, y: 246.74174, z: -7.0721416}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 53334417}
+  - {fileID: 1394954317}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1644326085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1644326083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79f76d0187fb6e8468979bf24517ee11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PauseScreen: {fileID: 53334412}
 --- !u!1 &1644670743
 GameObject:
   m_ObjectHideFlags: 0
@@ -60320,12 +60334,12 @@ Prefab:
     - target: {fileID: 114375861348650980, guid: edfbf112908a0e149adf73a5c0019f5b,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114375861348650980, guid: edfbf112908a0e149adf73a5c0019f5b,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1074625152665262, guid: edfbf112908a0e149adf73a5c0019f5b, type: 2}
       propertyPath: m_Layer
@@ -61122,7 +61136,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -61172,8 +61186,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 6
-  audioNormalDistance: 5
-  audioBoostedDistance: 20
+  audioNormalDistance: 10
+  audioBoostedDistance: 30
 --- !u!95 &1669516457
 Animator:
   serializedVersion: 3
@@ -62418,12 +62432,12 @@ Prefab:
     - target: {fileID: 114084690525685164, guid: 8ee3828cc1efdf841b13fac8591fceb7,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114084690525685164, guid: 8ee3828cc1efdf841b13fac8591fceb7,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 60979889953798882, guid: 8ee3828cc1efdf841b13fac8591fceb7, type: 2}
@@ -62702,7 +62716,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -62723,7 +62737,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -64011,7 +64025,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -64032,7 +64046,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -64082,8 +64096,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 2
-  audioNormalDistance: 5
-  audioBoostedDistance: 20
+  audioNormalDistance: 10
+  audioBoostedDistance: 30
 --- !u!95 &1736843736
 Animator:
   serializedVersion: 3
@@ -64634,6 +64648,21 @@ Prefab:
     - target: {fileID: 4807471312611902, guid: 5885eb241dd73e5418e634f2032efaea, type: 2}
       propertyPath: m_RootOrder
       value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 82611714337928860, guid: 5885eb241dd73e5418e634f2032efaea,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114125231297803552, guid: 5885eb241dd73e5418e634f2032efaea,
+        type: 2}
+      propertyPath: audioNormalDistance
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114125231297803552, guid: 5885eb241dd73e5418e634f2032efaea,
+        type: 2}
+      propertyPath: audioBoostedDistance
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -65286,12 +65315,12 @@ Prefab:
     - target: {fileID: 114142004039164306, guid: ed89bd94c4183164ab49097c71b955d8,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114142004039164306, guid: ed89bd94c4183164ab49097c71b955d8,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 60785898809934898, guid: ed89bd94c4183164ab49097c71b955d8, type: 2}
@@ -66419,7 +66448,7 @@ AudioSource:
   MinDistance: 0.7503853
   MaxDistance: 30.192736
   Pan2D: 0
-  rolloffMode: 2
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -66427,22 +66456,16 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
-      time: 0.3226014
+      time: 0
       value: 1
-      inSlope: -3.1010401
-      outSlope: -3.1010401
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 0.7038118
-      value: 0.09259033
-      inSlope: -0.77526003
-      outSlope: -0.77526003
+      inSlope: 0
+      outSlope: 0
       tangentMode: 0
     - serializedVersion: 2
       time: 1
       value: 0
-      inSlope: -0.3227301
-      outSlope: -0.3227301
+      inSlope: 0
+      outSlope: 0
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -66496,8 +66519,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 8
-  audioNormalDistance: 10
-  audioBoostedDistance: 30
+  audioNormalDistance: 25
+  audioBoostedDistance: 40
 --- !u!95 &1787026823
 Animator:
   serializedVersion: 3
@@ -66781,7 +66804,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -67474,12 +67497,12 @@ Prefab:
     - target: {fileID: 114375861348650980, guid: edfbf112908a0e149adf73a5c0019f5b,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114375861348650980, guid: edfbf112908a0e149adf73a5c0019f5b,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: edfbf112908a0e149adf73a5c0019f5b, type: 2}
@@ -68359,7 +68382,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -70889,7 +70912,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -71993,12 +72016,12 @@ Prefab:
     - target: {fileID: 114375861348650980, guid: edfbf112908a0e149adf73a5c0019f5b,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114375861348650980, guid: edfbf112908a0e149adf73a5c0019f5b,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1487593605302802, guid: edfbf112908a0e149adf73a5c0019f5b, type: 2}
       propertyPath: m_Layer
@@ -72316,12 +72339,12 @@ Prefab:
     - target: {fileID: 114084690525685164, guid: 8ee3828cc1efdf841b13fac8591fceb7,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114084690525685164, guid: 8ee3828cc1efdf841b13fac8591fceb7,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 60979889953798882, guid: 8ee3828cc1efdf841b13fac8591fceb7, type: 2}
@@ -73467,12 +73490,12 @@ Prefab:
     - target: {fileID: 114608467531276042, guid: 4b4a5ead4de958748b607613558f5c6c,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114608467531276042, guid: 4b4a5ead4de958748b607613558f5c6c,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1624122250633562, guid: 4b4a5ead4de958748b607613558f5c6c, type: 2}
       propertyPath: m_Layer
@@ -74343,7 +74366,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:

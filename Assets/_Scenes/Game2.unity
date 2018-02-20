@@ -1038,12 +1038,12 @@ Prefab:
     - target: {fileID: 114084690525685164, guid: 8ee3828cc1efdf841b13fac8591fceb7,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114084690525685164, guid: 8ee3828cc1efdf841b13fac8591fceb7,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4940398364599214, guid: 8ee3828cc1efdf841b13fac8591fceb7, type: 2}
       propertyPath: m_LocalScale.x
@@ -1083,7 +1083,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -3814,7 +3814,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -3902,8 +3902,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 2
-  audioNormalDistance: 5
-  audioBoostedDistance: 20
+  audioNormalDistance: 10
+  audioBoostedDistance: 30
 --- !u!95 &134204761
 Animator:
   serializedVersion: 3
@@ -4655,6 +4655,42 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400004, guid: 57977547c59abb546bbb1501e3c417db, type: 2}
   m_PrefabInternal: {fileID: 537550422}
+--- !u!1 &159970338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 159970339}
+  m_Layer: 0
+  m_Name: Map
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &159970339
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 159970338}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 519124964}
+  - {fileID: 1802430263}
+  - {fileID: 951825324}
+  - {fileID: 1877979592}
+  - {fileID: 1327282515}
+  - {fileID: 1814893177}
+  - {fileID: 1458051432}
+  - {fileID: 718460134}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &162486588
 GameObject:
   m_ObjectHideFlags: 0
@@ -5081,7 +5117,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -5169,8 +5205,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 2
-  audioNormalDistance: 5
-  audioBoostedDistance: 20
+  audioNormalDistance: 10
+  audioBoostedDistance: 30
 --- !u!95 &167956843
 Animator:
   serializedVersion: 3
@@ -6528,7 +6564,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -6616,8 +6652,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 2
-  audioNormalDistance: 5
-  audioBoostedDistance: 20
+  audioNormalDistance: 10
+  audioBoostedDistance: 30
 --- !u!95 &226048130
 Animator:
   serializedVersion: 3
@@ -6917,7 +6953,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -7005,8 +7041,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 2
-  audioNormalDistance: 5
-  audioBoostedDistance: 20
+  audioNormalDistance: 10
+  audioBoostedDistance: 30
 --- !u!95 &234471631
 Animator:
   serializedVersion: 3
@@ -8000,12 +8036,12 @@ Prefab:
     - target: {fileID: 114084690525685164, guid: 8ee3828cc1efdf841b13fac8591fceb7,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114084690525685164, guid: 8ee3828cc1efdf841b13fac8591fceb7,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4940398364599214, guid: 8ee3828cc1efdf841b13fac8591fceb7, type: 2}
       propertyPath: m_LocalScale.x
@@ -10220,7 +10256,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4398131756711552, guid: a21e106ddf64f3b45848dab3748c138b, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a21e106ddf64f3b45848dab3748c138b, type: 2}
@@ -11916,12 +11952,12 @@ Prefab:
     - target: {fileID: 114142004039164306, guid: ed89bd94c4183164ab49097c71b955d8,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114142004039164306, guid: ed89bd94c4183164ab49097c71b955d8,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4363926004278866, guid: ed89bd94c4183164ab49097c71b955d8, type: 2}
       propertyPath: m_LocalScale.x
@@ -13184,12 +13220,12 @@ Prefab:
     - target: {fileID: 114967644192125236, guid: dee74eeb3958c1344beaa94cab54485c,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114967644192125236, guid: dee74eeb3958c1344beaa94cab54485c,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4880410376061986, guid: dee74eeb3958c1344beaa94cab54485c, type: 2}
       propertyPath: m_LocalScale.x
@@ -13229,7 +13265,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -13834,6 +13870,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1802430263}
     m_Modifications:
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4496082170044128, guid: 8ba28937c6d87ff4fbadbef922318fac, type: 2}
       propertyPath: m_LocalPosition.x
       value: 238.6
@@ -13874,6 +13915,76 @@ Prefab:
         type: 2}
       propertyPath: damageDistance
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114977966234370668, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: audioNormalDistance
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114977966234370668, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: audioBoostedDistance
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].time
+      value: 0.3226014
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].inSlope
+      value: -3.1010401
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].outSlope
+      value: -3.1010401
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].time
+      value: 0.7038118
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].value
+      value: 0.09259033
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].inSlope
+      value: -0.77526003
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].outSlope
+      value: -0.77526003
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[2].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[2].inSlope
+      value: -0.3227301
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[2].outSlope
+      value: -0.3227301
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_RotationOrder
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8ba28937c6d87ff4fbadbef922318fac, type: 2}
@@ -16453,12 +16564,12 @@ Prefab:
     - target: {fileID: 114142004039164306, guid: ed89bd94c4183164ab49097c71b955d8,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114142004039164306, guid: ed89bd94c4183164ab49097c71b955d8,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4363926004278866, guid: ed89bd94c4183164ab49097c71b955d8, type: 2}
       propertyPath: m_LocalScale.x
@@ -16498,7 +16609,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -16603,12 +16714,12 @@ Prefab:
     - target: {fileID: 114184465862417700, guid: c1178fab82dfaf54b8ed3f2b314404bf,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114184465862417700, guid: c1178fab82dfaf54b8ed3f2b314404bf,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4083321523678406, guid: c1178fab82dfaf54b8ed3f2b314404bf, type: 2}
       propertyPath: m_LocalScale.x
@@ -16648,7 +16759,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -17243,8 +17354,8 @@ Transform:
   - {fileID: 366138051}
   - {fileID: 1565537216}
   - {fileID: 1532969690}
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 159970339}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &519155195
 Prefab:
@@ -18443,7 +18554,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -18783,12 +18894,12 @@ Prefab:
     - target: {fileID: 114703658971123160, guid: 19d0418d433a4c04480f120a03c4edf8,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114703658971123160, guid: 19d0418d433a4c04480f120a03c4edf8,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 19d0418d433a4c04480f120a03c4edf8, type: 2}
@@ -18820,7 +18931,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -19187,7 +19298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 595562253}
   m_Layer: 0
-  m_Name: enemy
+  m_Name: Entities
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19207,7 +19318,7 @@ Transform:
   - {fileID: 2127783260}
   - {fileID: 2146018645}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &596557433
 Prefab:
@@ -20748,12 +20859,12 @@ Prefab:
     - target: {fileID: 114703658971123160, guid: 19d0418d433a4c04480f120a03c4edf8,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114703658971123160, guid: 19d0418d433a4c04480f120a03c4edf8,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 19d0418d433a4c04480f120a03c4edf8, type: 2}
@@ -20785,7 +20896,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -21904,6 +22015,21 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4074498633556220, guid: a717ef11dce7f4d479219e86c97188c0, type: 2}
       propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114988421511419022, guid: a717ef11dce7f4d479219e86c97188c0,
+        type: 2}
+      propertyPath: audioNormalDistance
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114988421511419022, guid: a717ef11dce7f4d479219e86c97188c0,
+        type: 2}
+      propertyPath: audioBoostedDistance
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 82450623939179444, guid: a717ef11dce7f4d479219e86c97188c0,
+        type: 2}
+      propertyPath: rolloffMode
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -23163,12 +23289,12 @@ Prefab:
     - target: {fileID: 114384116402643308, guid: 2352598bd1afbc547969ab7a9c4886f3,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114384116402643308, guid: 2352598bd1afbc547969ab7a9c4886f3,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2352598bd1afbc547969ab7a9c4886f3, type: 2}
@@ -23200,7 +23326,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -23672,12 +23798,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 718460132}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 521.77, y: 149.28, z: -0.34746873}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 159970339}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &718460135
 MonoBehaviour:
@@ -28318,12 +28444,12 @@ Prefab:
     - target: {fileID: 114142004039164306, guid: ed89bd94c4183164ab49097c71b955d8,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114142004039164306, guid: ed89bd94c4183164ab49097c71b955d8,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4363926004278866, guid: ed89bd94c4183164ab49097c71b955d8, type: 2}
       propertyPath: m_LocalScale.x
@@ -28660,6 +28786,74 @@ SpriteRenderer:
 Transform:
   m_PrefabParentObject: {fileID: 400004, guid: 57977547c59abb546bbb1501e3c417db, type: 2}
   m_PrefabInternal: {fileID: 945785939}
+--- !u!1 &859962162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 859962163}
+  - component: {fileID: 859962165}
+  - component: {fileID: 859962164}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &859962163
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 859962162}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1406485572}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &859962164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 859962162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.42647058, g: 0.42647058, b: 0.42647058, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 0fce453be8ac1914ca7a3eb9330cadcc, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &859962165
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 859962162}
 --- !u!1 &860838628
 GameObject:
   m_ObjectHideFlags: 0
@@ -28859,6 +29053,68 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 400004, guid: 57977547c59abb546bbb1501e3c417db, type: 2}
   m_PrefabInternal: {fileID: 1117600129}
+--- !u!1 &873210855
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 873210856}
+  - component: {fileID: 873210858}
+  - component: {fileID: 873210857}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &873210856
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 873210855}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -653.7497, y: -246.74174, z: 7.0721416}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1639398255}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &873210857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 873210855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &873210858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 873210855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
 --- !u!4 &874608622
 Transform:
   m_ObjectHideFlags: 0
@@ -30122,12 +30378,12 @@ Prefab:
     - target: {fileID: 114384116402643308, guid: 2352598bd1afbc547969ab7a9c4886f3,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114384116402643308, guid: 2352598bd1afbc547969ab7a9c4886f3,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4604549981038026, guid: 2352598bd1afbc547969ab7a9c4886f3, type: 2}
       propertyPath: m_LocalScale.x
@@ -30168,7 +30424,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -31427,7 +31683,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 951825323}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 224.28731, y: 6.504441, z: -0.05859375}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -31470,8 +31726,8 @@ Transform:
   - {fileID: 440613256}
   - {fileID: 1113668632}
   - {fileID: 21017241}
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_Father: {fileID: 159970339}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &955910868 stripped
 Transform:
@@ -31641,6 +31897,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1802430263}
     m_Modifications:
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4496082170044128, guid: 8ba28937c6d87ff4fbadbef922318fac, type: 2}
       propertyPath: m_LocalPosition.x
       value: 254.12
@@ -31685,6 +31946,76 @@ Prefab:
         type: 2}
       propertyPath: damageDistance
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114977966234370668, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: audioNormalDistance
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114977966234370668, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: audioBoostedDistance
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].time
+      value: 0.3226014
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].inSlope
+      value: -3.1010401
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].outSlope
+      value: -3.1010401
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].time
+      value: 0.7038118
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].value
+      value: 0.09259033
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].inSlope
+      value: -0.77526003
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].outSlope
+      value: -0.77526003
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[2].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[2].inSlope
+      value: -0.3227301
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[2].outSlope
+      value: -0.3227301
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_RotationOrder
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8ba28937c6d87ff4fbadbef922318fac, type: 2}
@@ -31803,7 +32134,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -34142,12 +34473,12 @@ Prefab:
     - target: {fileID: 114084690525685164, guid: 8ee3828cc1efdf841b13fac8591fceb7,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114084690525685164, guid: 8ee3828cc1efdf841b13fac8591fceb7,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4940398364599214, guid: 8ee3828cc1efdf841b13fac8591fceb7, type: 2}
       propertyPath: m_LocalScale.x
@@ -34187,7 +34518,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -34633,6 +34964,21 @@ Prefab:
     - target: {fileID: 4030502906331930, guid: 2f507c5ca0343584ebc0bdab42460395, type: 2}
       propertyPath: m_LocalScale.y
       value: 0.7542309
+      objectReference: {fileID: 0}
+    - target: {fileID: 82486848918831548, guid: 2f507c5ca0343584ebc0bdab42460395,
+        type: 2}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114856213951257892, guid: 2f507c5ca0343584ebc0bdab42460395,
+        type: 2}
+      propertyPath: audioNormalDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114856213951257892, guid: 2f507c5ca0343584ebc0bdab42460395,
+        type: 2}
+      propertyPath: audioBoostedDistance
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 50529240173172130, guid: 2f507c5ca0343584ebc0bdab42460395, type: 2}
@@ -36602,12 +36948,12 @@ Prefab:
     - target: {fileID: 114608467531276042, guid: 4b4a5ead4de958748b607613558f5c6c,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114608467531276042, guid: 4b4a5ead4de958748b607613558f5c6c,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4490786897660808, guid: 4b4a5ead4de958748b607613558f5c6c, type: 2}
       propertyPath: m_LocalScale.x
@@ -36647,7 +36993,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -38089,12 +38435,12 @@ Prefab:
     - target: {fileID: 114608467531276042, guid: 4b4a5ead4de958748b607613558f5c6c,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114608467531276042, guid: 4b4a5ead4de958748b607613558f5c6c,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4490786897660808, guid: 4b4a5ead4de958748b607613558f5c6c, type: 2}
       propertyPath: m_LocalScale.x
@@ -38134,7 +38480,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -39169,7 +39515,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -39330,7 +39676,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -39418,8 +39764,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 2
-  audioNormalDistance: 5
-  audioBoostedDistance: 20
+  audioNormalDistance: 10
+  audioBoostedDistance: 30
 --- !u!95 &1179595034
 Animator:
   serializedVersion: 3
@@ -41370,12 +41716,12 @@ Prefab:
     - target: {fileID: 114142004039164306, guid: ed89bd94c4183164ab49097c71b955d8,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114142004039164306, guid: ed89bd94c4183164ab49097c71b955d8,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4363926004278866, guid: ed89bd94c4183164ab49097c71b955d8, type: 2}
       propertyPath: m_LocalScale.x
@@ -41446,6 +41792,21 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4074498633556220, guid: a717ef11dce7f4d479219e86c97188c0, type: 2}
       propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114988421511419022, guid: a717ef11dce7f4d479219e86c97188c0,
+        type: 2}
+      propertyPath: audioNormalDistance
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114988421511419022, guid: a717ef11dce7f4d479219e86c97188c0,
+        type: 2}
+      propertyPath: audioBoostedDistance
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 82450623939179444, guid: a717ef11dce7f4d479219e86c97188c0,
+        type: 2}
+      propertyPath: rolloffMode
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -42817,8 +43178,8 @@ Transform:
   m_Children:
   - {fileID: 1779756674}
   - {fileID: 1585297688}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 159970339}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1328750057
 Prefab:
@@ -42827,6 +43188,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 229561863}
     m_Modifications:
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4496082170044128, guid: 8ba28937c6d87ff4fbadbef922318fac, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0.11
@@ -42895,6 +43261,76 @@ Prefab:
         type: 2}
       propertyPath: damageDistance
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114977966234370668, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: audioNormalDistance
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114977966234370668, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: audioBoostedDistance
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].time
+      value: 0.3226014
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].inSlope
+      value: -3.1010401
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].outSlope
+      value: -3.1010401
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].time
+      value: 0.7038118
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].value
+      value: 0.09259033
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].inSlope
+      value: -0.77526003
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].outSlope
+      value: -0.77526003
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[2].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[2].inSlope
+      value: -0.3227301
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[2].outSlope
+      value: -0.3227301
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_RotationOrder
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8ba28937c6d87ff4fbadbef922318fac, type: 2}
@@ -43726,7 +44162,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -44686,6 +45122,21 @@ Prefab:
       propertyPath: m_Name
       value: Anthena (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 114988421511419022, guid: a717ef11dce7f4d479219e86c97188c0,
+        type: 2}
+      propertyPath: audioNormalDistance
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114988421511419022, guid: a717ef11dce7f4d479219e86c97188c0,
+        type: 2}
+      propertyPath: audioBoostedDistance
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 82450623939179444, guid: a717ef11dce7f4d479219e86c97188c0,
+        type: 2}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 60964633834064018, guid: a717ef11dce7f4d479219e86c97188c0, type: 2}
     - {fileID: 50573316885770682, guid: a717ef11dce7f4d479219e86c97188c0, type: 2}
@@ -44916,6 +45367,21 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 1.0001805
       objectReference: {fileID: 0}
+    - target: {fileID: 114988421511419022, guid: a717ef11dce7f4d479219e86c97188c0,
+        type: 2}
+      propertyPath: audioNormalDistance
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114988421511419022, guid: a717ef11dce7f4d479219e86c97188c0,
+        type: 2}
+      propertyPath: audioBoostedDistance
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 82450623939179444, guid: a717ef11dce7f4d479219e86c97188c0,
+        type: 2}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a717ef11dce7f4d479219e86c97188c0, type: 2}
   m_IsPrefabParent: 0
@@ -45080,6 +45546,101 @@ Transform:
   m_Father: {fileID: 1802430263}
   m_RootOrder: 84
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1406485568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1406485572}
+  - component: {fileID: 1406485571}
+  - component: {fileID: 1406485570}
+  - component: {fileID: 1406485569}
+  m_Layer: 5
+  m_Name: Pause Screen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1406485569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1406485568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1406485570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1406485568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &1406485571
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1406485568}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1406485572
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1406485568}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 7.0721416}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1815613791}
+  - {fileID: 859962163}
+  m_Father: {fileID: 1639398255}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -653.7497, y: -246.74174}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1001 &1407735042
 Prefab:
   m_ObjectHideFlags: 0
@@ -46187,12 +46748,12 @@ Prefab:
     - target: {fileID: 114967644192125236, guid: dee74eeb3958c1344beaa94cab54485c,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114967644192125236, guid: dee74eeb3958c1344beaa94cab54485c,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4880410376061986, guid: dee74eeb3958c1344beaa94cab54485c, type: 2}
       propertyPath: m_LocalScale.x
@@ -46951,7 +47512,7 @@ Transform:
   - {fileID: 1444767998}
   - {fileID: 442063432}
   - {fileID: 1667445951}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 159970339}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1458470232 stripped
@@ -47500,7 +48061,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -48222,6 +48783,21 @@ Prefab:
     - target: {fileID: 4030502906331930, guid: 2f507c5ca0343584ebc0bdab42460395, type: 2}
       propertyPath: m_LocalScale.y
       value: 0.7542309
+      objectReference: {fileID: 0}
+    - target: {fileID: 82486848918831548, guid: 2f507c5ca0343584ebc0bdab42460395,
+        type: 2}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114856213951257892, guid: 2f507c5ca0343584ebc0bdab42460395,
+        type: 2}
+      propertyPath: audioNormalDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114856213951257892, guid: 2f507c5ca0343584ebc0bdab42460395,
+        type: 2}
+      propertyPath: audioBoostedDistance
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 50529240173172130, guid: 2f507c5ca0343584ebc0bdab42460395, type: 2}
@@ -50252,6 +50828,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1802430263}
     m_Modifications:
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4496082170044128, guid: 8ba28937c6d87ff4fbadbef922318fac, type: 2}
       propertyPath: m_LocalPosition.x
       value: 269.64
@@ -50304,6 +50885,76 @@ Prefab:
         type: 2}
       propertyPath: damageDistance
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114977966234370668, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: audioNormalDistance
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114977966234370668, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: audioBoostedDistance
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].time
+      value: 0.3226014
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].inSlope
+      value: -3.1010401
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].outSlope
+      value: -3.1010401
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].time
+      value: 0.7038118
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].value
+      value: 0.09259033
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].inSlope
+      value: -0.77526003
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].outSlope
+      value: -0.77526003
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[2].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[2].inSlope
+      value: -0.3227301
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[2].outSlope
+      value: -0.3227301
+      objectReference: {fileID: 0}
+    - target: {fileID: 82039193357232910, guid: 8ba28937c6d87ff4fbadbef922318fac,
+        type: 2}
+      propertyPath: rolloffCustomCurve.m_RotationOrder
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8ba28937c6d87ff4fbadbef922318fac, type: 2}
@@ -52315,12 +52966,12 @@ Prefab:
     - target: {fileID: 114142004039164306, guid: ed89bd94c4183164ab49097c71b955d8,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114142004039164306, guid: ed89bd94c4183164ab49097c71b955d8,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4363926004278866, guid: ed89bd94c4183164ab49097c71b955d8, type: 2}
       propertyPath: m_LocalScale.x
@@ -52360,7 +53011,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -53111,6 +53762,49 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.4893985, y: 0.3548323}
   m_EdgeRadius: 0
+--- !u!1 &1639398253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1639398255}
+  - component: {fileID: 1639398254}
+  m_Layer: 0
+  m_Name: PauseSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1639398254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1639398253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79f76d0187fb6e8468979bf24517ee11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PauseScreen: {fileID: 1406485568}
+--- !u!4 &1639398255
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1639398253}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 653.7497, y: 246.74174, z: -7.0721416}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1406485572}
+  - {fileID: 873210856}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1641174247
 Prefab:
   m_ObjectHideFlags: 0
@@ -54063,7 +54757,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -54767,6 +55461,21 @@ Prefab:
       propertyPath: m_Name
       value: Anthena (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 114988421511419022, guid: a717ef11dce7f4d479219e86c97188c0,
+        type: 2}
+      propertyPath: audioNormalDistance
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114988421511419022, guid: a717ef11dce7f4d479219e86c97188c0,
+        type: 2}
+      propertyPath: audioBoostedDistance
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 82450623939179444, guid: a717ef11dce7f4d479219e86c97188c0,
+        type: 2}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 60964633834064018, guid: a717ef11dce7f4d479219e86c97188c0, type: 2}
     - {fileID: 50573316885770682, guid: a717ef11dce7f4d479219e86c97188c0, type: 2}
@@ -55415,6 +56124,21 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114988421511419022, guid: a717ef11dce7f4d479219e86c97188c0,
+        type: 2}
+      propertyPath: audioNormalDistance
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114988421511419022, guid: a717ef11dce7f4d479219e86c97188c0,
+        type: 2}
+      propertyPath: audioBoostedDistance
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 82450623939179444, guid: a717ef11dce7f4d479219e86c97188c0,
+        type: 2}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a717ef11dce7f4d479219e86c97188c0, type: 2}
   m_IsPrefabParent: 0
@@ -55585,12 +56309,12 @@ Prefab:
     - target: {fileID: 114232653942752922, guid: ab4f2bb372f08cb4f87c8a2415aca33b,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114232653942752922, guid: ab4f2bb372f08cb4f87c8a2415aca33b,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4302603754304436, guid: ab4f2bb372f08cb4f87c8a2415aca33b, type: 2}
       propertyPath: m_LocalScale.x
@@ -55630,7 +56354,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -58430,8 +59154,8 @@ Transform:
   - {fileID: 1933753457}
   - {fileID: 1053346599}
   - {fileID: 87705012}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_Father: {fileID: 159970339}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1806151511
 GameObject:
@@ -58810,9 +59534,77 @@ Transform:
   - {fileID: 1481611912}
   - {fileID: 799595456}
   - {fileID: 247417447}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 159970339}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1815613790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1815613791}
+  - component: {fileID: 1815613793}
+  - component: {fileID: 1815613792}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1815613791
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1815613790}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1406485572}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1815613792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1815613790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1815613793
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1815613790}
 --- !u!4 &1816239323 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4084533579076994, guid: ba38ba970cdd65841af282b38b965edc,
@@ -60119,12 +60911,12 @@ Prefab:
     - target: {fileID: 114608467531276042, guid: 4b4a5ead4de958748b607613558f5c6c,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114608467531276042, guid: 4b4a5ead4de958748b607613558f5c6c,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4490786897660808, guid: 4b4a5ead4de958748b607613558f5c6c, type: 2}
       propertyPath: m_LocalScale.x
@@ -60401,7 +61193,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -61063,7 +61855,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1877979591}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 357.51462, y: 88.214066, z: 0.21753523}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -61088,8 +61880,8 @@ Transform:
   - {fileID: 1539342493}
   - {fileID: 1985815355}
   - {fileID: 763318999}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 159970339}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1879059541
 Transform:
@@ -61563,7 +62355,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -61651,8 +62443,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 2
-  audioNormalDistance: 5
-  audioBoostedDistance: 20
+  audioNormalDistance: 10
+  audioBoostedDistance: 30
 --- !u!95 &1891881143
 Animator:
   serializedVersion: 3
@@ -63038,12 +63830,12 @@ Prefab:
     - target: {fileID: 114384116402643308, guid: 2352598bd1afbc547969ab7a9c4886f3,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114384116402643308, guid: 2352598bd1afbc547969ab7a9c4886f3,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2352598bd1afbc547969ab7a9c4886f3, type: 2}
@@ -63075,7 +63867,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -63449,7 +64241,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -67317,12 +68109,12 @@ Prefab:
     - target: {fileID: 114703658971123160, guid: 19d0418d433a4c04480f120a03c4edf8,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114703658971123160, guid: 19d0418d433a4c04480f120a03c4edf8,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 19d0418d433a4c04480f120a03c4edf8, type: 2}
@@ -67354,7 +68146,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -67603,6 +68395,21 @@ Prefab:
     - target: {fileID: 1673177374255876, guid: a717ef11dce7f4d479219e86c97188c0, type: 2}
       propertyPath: m_Name
       value: Anthena (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114988421511419022, guid: a717ef11dce7f4d479219e86c97188c0,
+        type: 2}
+      propertyPath: audioNormalDistance
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114988421511419022, guid: a717ef11dce7f4d479219e86c97188c0,
+        type: 2}
+      propertyPath: audioBoostedDistance
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 82450623939179444, guid: a717ef11dce7f4d479219e86c97188c0,
+        type: 2}
+      propertyPath: rolloffMode
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 60964633834064018, guid: a717ef11dce7f4d479219e86c97188c0, type: 2}
@@ -68708,12 +69515,12 @@ Prefab:
     - target: {fileID: 114142004039164306, guid: ed89bd94c4183164ab49097c71b955d8,
         type: 2}
       propertyPath: audioNormalDistance
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114142004039164306, guid: ed89bd94c4183164ab49097c71b955d8,
         type: 2}
       propertyPath: audioBoostedDistance
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4363926004278866, guid: ed89bd94c4183164ab49097c71b955d8, type: 2}
       propertyPath: m_LocalScale.x
