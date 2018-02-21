@@ -20429,7 +20429,7 @@ GameObject:
   - component: {fileID: 470545789}
   - component: {fileID: 470545788}
   - component: {fileID: 470545791}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: PrototypeWhite04x01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22231,7 +22231,7 @@ GameObject:
   - component: {fileID: 499097404}
   - component: {fileID: 499097403}
   - component: {fileID: 499097402}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: PrototypeWhite04x01 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24946,7 +24946,7 @@ GameObject:
   - component: {fileID: 560906072}
   - component: {fileID: 560906071}
   - component: {fileID: 560906070}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: PrototypeWhite04x01 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37954,7 +37954,7 @@ GameObject:
   - component: {fileID: 840685040}
   - component: {fileID: 840685039}
   - component: {fileID: 840685038}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: PrototypeWhite04x01 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42258,7 +42258,7 @@ GameObject:
   - component: {fileID: 940915661}
   - component: {fileID: 940915660}
   - component: {fileID: 940915659}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: PrototypeWhite04x01 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45109,7 +45109,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1011756935}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Moving_Platforms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46104,7 +46104,7 @@ GameObject:
   - component: {fileID: 1031264209}
   - component: {fileID: 1031264208}
   - component: {fileID: 1031264207}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: PrototypeWhite04x01 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57191,7 +57191,7 @@ GameObject:
   - component: {fileID: 1301278550}
   - component: {fileID: 1301278549}
   - component: {fileID: 1301278548}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: PrototypeWhite04x01 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76213,7 +76213,7 @@ GameObject:
   - component: {fileID: 1766181327}
   - component: {fileID: 1766181326}
   - component: {fileID: 1766181325}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: PrototypeWhite04x01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77489,7 +77489,7 @@ GameObject:
   - component: {fileID: 1781646113}
   - component: {fileID: 1781646112}
   - component: {fileID: 1781646111}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: PrototypeWhite04x01 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77854,7 +77854,7 @@ GameObject:
   - component: {fileID: 1790186386}
   - component: {fileID: 1790186385}
   - component: {fileID: 1790186384}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: PrototypeWhite04x01 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80515,7 +80515,7 @@ GameObject:
   - component: {fileID: 1840596138}
   - component: {fileID: 1840596137}
   - component: {fileID: 1840596136}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: PrototypeWhite04x01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81971,7 +81971,7 @@ GameObject:
   - component: {fileID: 1856301741}
   - component: {fileID: 1856301740}
   - component: {fileID: 1856301739}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: PrototypeWhite04x01 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92556,7 +92556,7 @@ GameObject:
   - component: {fileID: 2087125206}
   - component: {fileID: 2087125205}
   - component: {fileID: 2087125207}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
