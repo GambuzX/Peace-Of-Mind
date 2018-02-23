@@ -28,7 +28,7 @@ public class AudioController : MonoBehaviour {
         } else
         {
             audioSource.clip = quietMusic;
-            audioSource.volume = 0.1f;
+            audioSource.volume = 0.3f;
 
             if (!audioSource.isPlaying)
             {
