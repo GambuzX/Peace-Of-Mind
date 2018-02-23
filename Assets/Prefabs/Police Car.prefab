@@ -365,6 +365,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistance: 6
+  audioNormalDistance: 10
+  audioBoostedDistance: 30
 --- !u!114 &114942507946556652
 MonoBehaviour:
   m_ObjectHideFlags: 1
