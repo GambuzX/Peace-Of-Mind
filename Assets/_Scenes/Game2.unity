@@ -27218,6 +27218,26 @@ Prefab:
       propertyPath: audioBoostedDistance
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 1850104584003504, guid: 19d0418d433a4c04480f120a03c4edf8, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092281114389096, guid: 19d0418d433a4c04480f120a03c4edf8, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419800537867184, guid: 19d0418d433a4c04480f120a03c4edf8, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638715240445634, guid: 19d0418d433a4c04480f120a03c4edf8, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286804447838438, guid: 19d0418d433a4c04480f120a03c4edf8, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 19d0418d433a4c04480f120a03c4edf8, type: 2}
   m_IsPrefabParent: 0
@@ -29654,6 +29674,26 @@ Prefab:
     - target: {fileID: 4655013461081300, guid: 19d0418d433a4c04480f120a03c4edf8, type: 2}
       propertyPath: m_LocalScale.y
       value: 1.325854
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092281114389096, guid: 19d0418d433a4c04480f120a03c4edf8, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638715240445634, guid: 19d0418d433a4c04480f120a03c4edf8, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286804447838438, guid: 19d0418d433a4c04480f120a03c4edf8, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1850104584003504, guid: 19d0418d433a4c04480f120a03c4edf8, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419800537867184, guid: 19d0418d433a4c04480f120a03c4edf8, type: 2}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 19d0418d433a4c04480f120a03c4edf8, type: 2}
@@ -59541,7 +59581,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1327282515}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BoomBoxes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91009,6 +91049,26 @@ Prefab:
         type: 2}
       propertyPath: audioBoostedDistance
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092281114389096, guid: 19d0418d433a4c04480f120a03c4edf8, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419800537867184, guid: 19d0418d433a4c04480f120a03c4edf8, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638715240445634, guid: 19d0418d433a4c04480f120a03c4edf8, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1850104584003504, guid: 19d0418d433a4c04480f120a03c4edf8, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286804447838438, guid: 19d0418d433a4c04480f120a03c4edf8, type: 2}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 19d0418d433a4c04480f120a03c4edf8, type: 2}
