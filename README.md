@@ -1,4 +1,4 @@
-# Peace-Of-Mind
+# Peace-Of-Mind :video_game:
 Global Game Jam 2018
 
 Theme: Transmission
