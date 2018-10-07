@@ -1,14 +1,16 @@
 # Peace-Of-Mind :city_sunrise: :sound: :video_game:
 
 ### Context
-Game developed during the Global Game Jam 2018
+Game developed during the Global Game Jam 2018.
 
 **Theme:** Transmission
 
+### Info 
+I worked as the Game Designer and Programmer for this project.
+
 :trophy: We were awarded **second place** in our Jam Site based on local participants' votes, highlighted for the creativity and sound design.
 
-### Role
-I worked as the Game Designer and Programmer for this project.
+**Link:** [https://globalgamejam.org/2018/games/peace-mind](https://globalgamejam.org/2018/games/peace-mind, "GGJ Website")
 
 ### Description
 The game features an autistic child on his journey to find true silence away from the city :city_sunrise: he lives in . Even though he has a mask which reduces his hearing and turns his disorder bearable, he never trully is able to achieve peace of mind in the city.
