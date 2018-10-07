@@ -12,6 +12,10 @@ I worked as the Game Designer and Programmer for this project.
 
 **Link:** [https://globalgamejam.org/2018/games/peace-mind](https://globalgamejam.org/2018/games/peace-mind, "GGJ Website")
 
+### Technologies
+* C#
+* Unity 
+
 ### Description
 The game features an autistic child on his journey to find true silence away from the city :city_sunrise: he lives in . Even though he has a mask which reduces his hearing and turns his disorder bearable, he never trully is able to achieve peace of mind in the city.
 
