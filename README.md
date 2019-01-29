@@ -10,7 +10,7 @@ I worked as the Game Designer and Programmer for this project.
 
 :trophy: We were awarded **second place** in our Jam Site based on local participants' votes, highlighted for the creativity and sound design.
 
-**Link:** [https://globalgamejam.org/2018/games/peace-mind](https://globalgamejam.org/2018/games/peace-mind, "GGJ Website")
+**Link:** [https://globalgamejam.org/2018/games/peace-mind](https://globalgamejam.org/2018/games/peace-mind "GGJ Website")
 
 ### Technologies
 * C#
